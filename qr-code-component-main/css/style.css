@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background-color: hsl(212, 45%, 89%);
+  display: block;
+}
+
+main {
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+}
+
+/* card */
+.CARD {
+  margin-top: 4rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px black;
+  text-align: center;
+}
+
+img {
+  width: 15rem;
+  display: block;
+  margin: 1rem 5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* text */
+.QRtitle {
+  font-size: 18px;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.CARD{
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-family: "outfit", sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  margin-top: 50rem;
+}
